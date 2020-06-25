@@ -5,6 +5,7 @@ Pewlett Hackard provided several datasets so we could execute different analyses
 To provide Pewlett Hackard with the analysis they were looking for, I built a Postgres database and used SQL to analyze the .csv files. Before performing any analysis, I built an ERD (see below) to represent the relationships between the data in the individual datasets. Once the ERD was saved, I used SQL to physically establish the relationships that I had mapped out in the ERD. I used prompts like CREATE TABLE, FOREIGN KEY / REFERENCES, and PRIMARY KEY to load the given .csv files into their databases and connect them. Once the given .csv files were loaded, I used the SELECT / INTO commands to parce out the pertinent information for new databases that provided deeper analysis based on the information Pewlett Hackard needed. 
 
 ![ERD](EmployeeDB.png)
+
 Figure: ERD
 
 
